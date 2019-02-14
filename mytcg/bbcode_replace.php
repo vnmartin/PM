@@ -1,0 +1,6 @@
+<?php
+    $bbcode = array('[b]', '[i]', '[u]', '[/b]', '[/i]', '[/u]', '[url="', '"]', '[/url]');
+    $bbcode_replace = array('<b>', '<i>', '<u>', '</b>', '</i>', '</u>', '<a href="', '">', '</a>');
+    $emoticons = array(':)', ':(', ':x', ';)', ':p', ':o', ':heart:', ':D', ':angry:', ':bad:', ':blowkiss:', ':bye:', ':clap:', ':confused:', ':cute:', ':desire:', ':devil:', ':giggle:', ':ghost:', ':laugh:', '-_-', ':question:');
+    $emoticons_replace = array('<img src=/mytcg/imgs/smile.png>', '<img src=/mytcg/imgs/sad.png>','<img src=/mytcg/imgs/kiss.png>', '<img src=/mytcg/imgs/wink.png>', '<img src=/mytcg/imgs/tongue.png>', '<img src=/mytcg/imgs/oh.png>', '<img src=/mytcg/imgs/heart.png>', '<img src=/mytcg/imgs/grin.png>', '<img src=/mytcg/imgs/angry.png>', '<img src=/mytcg/imgs/bad.png>', '<img src=/mytcg/imgs/blowkiss.png>', '<img src=/mytcg/imgs/bye.png>', '<img src=/mytcg/imgs/clap.png>', '<img src=/mytcg/imgs/confused.png>', '<img src=/mytcg/imgs/cute.png>', '<img src=/mytcg/imgs/desire.png>', '<img src=/mytcg/imgs/devil.png>', '<img src=/mytcg/imgs/giggle.png>', '<img src=/mytcg/imgs/ghost.png>', '<img src=/mytcg/imgs/laugh.png>', '<img src=/mytcg/imgs/neutral.png>', '<img src=/mytcg/imgs/question.png>');
+?>
